@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
 import { Link } from "react-router-dom";
-import Logo from "../../static/images/Anim.-Logo-Header-_-Footer-CS(1).gif";
+import Logo from "../../static/images/Anim.-Logo-Header-+-Footer-CS.gif";
 import Grid from "@mui/material/Grid";
 const Title = styled("h1")({
   fontFamily: `Maven Pro, sans-serif`,

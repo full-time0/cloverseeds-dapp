@@ -51,7 +51,7 @@ const Faq = () => {
                 open === 1 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -76,7 +76,7 @@ const Faq = () => {
                   have to trust them not to mismanage your money, like lending
                   to risky borrowers.
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(2)}>
               <a
@@ -99,7 +99,7 @@ const Faq = () => {
                 open === 2 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -116,7 +116,7 @@ const Faq = () => {
                   It is used to buy NFT that will allow you to grow Clovers and
                   harvest more SEED$.
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(3)}>
               <a
@@ -139,7 +139,7 @@ const Faq = () => {
                 open === 3 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -164,7 +164,7 @@ const Faq = () => {
                   have to trust them not to mismanage your money, like lending
                   to risky borrowers.
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(4)}>
               <a
@@ -187,7 +187,7 @@ const Faq = () => {
                 open === 4 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -215,9 +215,9 @@ const Faq = () => {
                   or swap your tokens.
                   <br />
                   You can also trade your land on{" "}
-                  <span style={{ color: "#bdd10a" }}>https://nftrade.com/</span>
+                  <a href="https://nftrade.com/" target="_blank" style={{ color: "#bdd10a" }}>https://nftrade.com/</a>
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(5)}>
               <a
@@ -240,7 +240,7 @@ const Faq = () => {
                 open === 5 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -272,7 +272,7 @@ const Faq = () => {
                   <br />
                   Reward : 1% / 1.5% / 2% / 4% per day
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(6)}>
               <a
@@ -295,7 +295,7 @@ const Faq = () => {
                 open === 6 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -328,7 +328,7 @@ const Faq = () => {
                   land staked. The game will be over (no more watering, no more
                   seeds rewards)
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(7)}>
               <a
@@ -352,7 +352,7 @@ const Faq = () => {
                 open === 7 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -366,7 +366,7 @@ const Faq = () => {
                 >
                   No, you don’t.
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(8)}>
               <a
@@ -389,7 +389,7 @@ const Faq = () => {
                 open === 8 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -413,7 +413,7 @@ const Faq = () => {
                     </a>
                   </span>
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(9)}>
               <a
@@ -436,7 +436,7 @@ const Faq = () => {
                 open === 9 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -451,7 +451,7 @@ const Faq = () => {
                   Yes, the creator will earn 5% royalties when you will trade
                   NFT on Marketplace.
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(10)}>
               <a
@@ -474,7 +474,7 @@ const Faq = () => {
                 open === 10 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -501,7 +501,7 @@ const Faq = () => {
                   with 1 million SEED$ and and allows the team to fix some bugs
                   (if needed).
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(11)}>
               <a
@@ -524,7 +524,7 @@ const Faq = () => {
                 open === 11 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -548,7 +548,7 @@ const Faq = () => {
                   keep your farms growing and see your crop thrive (and to earn
                   more SEED$).
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(12)}>
               <a
@@ -571,7 +571,7 @@ const Faq = () => {
                 open === 12 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -585,7 +585,7 @@ const Faq = () => {
                 >
                   Yes, but Lands will be limited.
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(13)}>
               <a
@@ -608,7 +608,7 @@ const Faq = () => {
                 open === 13 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -681,7 +681,7 @@ const Faq = () => {
                     </Box>
                   </Box>
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(14)}>
               <a
@@ -704,7 +704,7 @@ const Faq = () => {
                 open === 14 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -740,7 +740,7 @@ const Faq = () => {
                     transferred to the team wallet (BNB).
                   </span>
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(15)}>
               <a
@@ -763,7 +763,7 @@ const Faq = () => {
                 open === 15 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -788,7 +788,7 @@ const Faq = () => {
                     - 2% are transferred to the team wallet.
                   </span>
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(16)}>
               <a
@@ -811,7 +811,7 @@ const Faq = () => {
                 open === 16 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -836,7 +836,7 @@ const Faq = () => {
                     very good image and a positive reputation.
                   </span>
                 </Paragraph>
-              </p>
+              </div>
             </div>
             <div className="faq-q-wrap" onClick={() => handleCollapse(17)}>
               <a
@@ -859,7 +859,7 @@ const Faq = () => {
                 open === 17 ? "open" : "collapse"
               } bg-transparent border-b border-white`}
             >
-              <p className="faq-answer">
+              <div className="faq-answer">
                 <Paragraph
                   sx={{
                     color: "#b9e7d6",
@@ -874,7 +874,7 @@ const Faq = () => {
                   Yes, you just have to follow this{" "}
                   <span style={{ color: "#bdd10a" }}>link.</span>
                 </Paragraph>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -895,7 +895,7 @@ const Title = styled("h1")({
   textTransform: "uppercase",
   color: `#FFFFFF`,
 });
-const Paragraph = styled("h1")({
+const Paragraph = styled("span")({
   fontStyle: `normal`,
   fontWeight: `700`,
   fontSize: `28px`,

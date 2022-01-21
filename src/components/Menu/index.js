@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import Logo from "../../static/images/Anim.-Logo-Header-_-Footer-CS(1).gif";
+import Logo from "../../static/images/Anim.-Logo-Header-+-Footer-CS.gif";
 import WalletIcon from "../../static/images/Picto-wallet.svg";
 import MobileMenu from "./MobileMenu";
 import { Link } from "react-router-dom";

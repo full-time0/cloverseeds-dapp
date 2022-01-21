@@ -35,7 +35,7 @@ const TipText = styled("h1")({
   textTransform: "uppercase",
   paddingTop: "15px",
 });
-const WhitePaperBtn = styled("a")({
+const WhitePaperBtn = styled("button")({
   fontFamily: `Maven Pro, sans-serif`,
   fontStyle: `normal`,
   fontWeight: `600`,

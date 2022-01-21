@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import WalletIcon from "../../static/images/Picto-wallet.svg";
 import MenuIcon from "@mui/icons-material/Menu";
-import Logo from "../../static/images/web-logo.svg";
+import Logo from "../../static/images/Anim.-Logo-Header-+-Footer-CS.gif";
 import { Link } from "react-router-dom";
 const MobileMenu = (props) => {
   const [state, setState] = React.useState({
@@ -32,12 +32,11 @@ const MobileMenu = (props) => {
         sx={{
           width: "100%",
           maxWidth: "200px",
-          marginX: "auto",
           paddingY: "40px",
         }}
       >
         <Link to="/">
-          <img src={Logo} alt="" />
+          <img src={Logo} width={250} height={28} alt="" />
         </Link>
       </Box>
       <Box
@@ -144,7 +143,7 @@ const MobileMenu = (props) => {
               }}
             >
               <Link to="/">
-                <img src={Logo} alt="" />
+                <img src={Logo} width={250} height={28} alt="" />
               </Link>
             </Box>
             <Box
